@@ -1,1 +1,1 @@
-# devfest-2019 Teaser website
+# GDG DevFest Philippines 2019 event website
