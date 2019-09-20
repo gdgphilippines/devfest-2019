@@ -28,8 +28,8 @@
 @import '../assets/style'
 .HomeAboutGDG
   background-color: $color-surface
-  // background: url(/assets/abstract-background.png)
-  // background-size: cover
+  background: url(/assets/abstract-background.png)
+  background-size: cover
 
 
   &__container
