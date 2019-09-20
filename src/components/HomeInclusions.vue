@@ -67,10 +67,13 @@
     flex-wrap: wrap
     place-items: center
     justify-content: space-evenly
-
+    
   &__inclusion
     width: 10rem
     margin: 1rem
+    svg
+      path
+        fill: $color-accent
 
   &__inclusion-label
     font-size: 1.05rem
