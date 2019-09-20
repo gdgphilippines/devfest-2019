@@ -1,0 +1,68 @@
+.section-title
+  
+  font-size: 2rem
+  font-weight: normal
+  color: $color-on-surface
+  @include from($hd)
+    font-size: 2.75rem
+
+p
+  
+  font-size: 1.1rem
+  @include from($hd)
+    font-size: 1.45rem
+
+.button-link
+  color: $color-on-background
+  display: inline-block
+  text-decoration: none
+  
+  font-size: 1.15rem
+  border: 0.1rem solid $color-primary
+  padding: 0.5rem 1rem
+  border-radius: 1rem
+  padding-right: 3rem
+  position: relative
+  @include from($hd)
+    font-size: 1.35rem
+    padding: 0.75rem 1.25rem
+    padding-right: 3.25rem
+    border-radius: 1.25rem
+
+  &--white
+    border-color: $color-on-background
+    &::after
+      border-left-color: $color-on-background !important
+
+  
+  &:hover
+    border-color: $color-accent
+    color: $color-on-background
+    &::after
+      transform: translateY(-50%) translateX(0.25rem)
+      border-left-color: $color-accent
+    
+
+  &::after
+    content: ''
+    position: absolute
+    right: 1rem
+    top: 50%
+    transform: translateY(-50%) translateX(0)
+    border-top: 8px solid transparent
+    border-bottom: 8px solid transparent
+    border-left: 10px solid $color-primary
+    transition: 0.2s transform
+
+  
+
+
+
+.container
+  width: calc(100% - 2rem)
+  max-width: 1280px
+  margin: auto
+  @include from($tablet)
+    width: calc(100% - 4rem)
+  @include from($hd)
+    max-width: calc(100% - 15rem)

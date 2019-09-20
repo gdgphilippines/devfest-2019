@@ -1,0 +1,30 @@
+.fade-enter-active, .fade-leave-active 
+  transition: opacity .5s
+
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */
+  opacity: 0
+
+.slideup-enter-active, .slideup-leave-active 
+  transition: opacity .75s, transform 0.75s
+  will-change: opacity, transform
+
+.slideup-enter, .slideup-leave-to /* .fade-leave-active below version 2.1.8 */
+  opacity: 0
+  transform: translateY(3rem)
+  will-change: opacity, transform
+
+.scalein
+  &-enter-active, &-leave-active 
+    transition: opacity 0.5s
+    @media(min-width: 768px)
+      transition: opacity 1s, transform 1s
+  &-enter, &-leave-to
+    opacity: 0
+    @media(min-width: 768px)
+      transform: scale(1.15)
+
+.slideleft
+  &-enter-active, &-leave-active 
+    transition: transform 0.5s
+  &-enter, &-leave-to
+    transform: translateX(-100%)

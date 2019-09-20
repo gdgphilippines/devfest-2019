@@ -1,0 +1,49 @@
+{
+  "name": "devfest-2019-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "postbuild": "react-snap"
+  },
+  "reactSnap": {
+    "source": "dist",
+    "minifyHtml": {
+      "collapseWhitespace": false,
+      "removeComments": false
+    }
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "react-snap": "^1.23.0",
+    "register-service-worker": "^1.6.2",
+    "vue": "^2.6.10",
+    "vue-clazy-load": "^0.4.2",
+    "vue-lazyload-video": "^0.1.15",
+    "vue-parallax-js": "^0.2.3",
+    "vue-router": "^3.0.3",
+    "vue-typer": "^1.2.0",
+    "vue-typewriter": "^2.2.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-pwa": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-particles": "^1.0.9",
+    "vue-template-compiler": "^2.6.10",
+    "vuejs-snackbar": "^4.0.1"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

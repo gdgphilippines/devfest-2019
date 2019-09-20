@@ -1,0 +1,20 @@
+{
+  "name": "GDG DevFest Philippines 2019",
+  "short_name": "DevFest PH",
+  "icons": [
+    {
+      "src": "./img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0B065F",
+  "theme_color": "#0B065F"
+}

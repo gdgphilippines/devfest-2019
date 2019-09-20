@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="381.737" height="194.433" viewBox="0 0 381.737 194.433">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_15" data-name="Group 15" transform="translate(-277.249 -518.53)">
+    <g id="Group_14" data-name="Group 14">
+      <path id="Subtraction_25" data-name="Subtraction 25" class="cls-1" d="M116.592,983.288h0L65.311,953.681a35.06,35.06,0,0,0-9.08-3.671l76.3-44.053a29.5,29.5,0,1,1,29.5,51.1l-45.441,26.235Z" transform="translate(667.245 1604.333) rotate(-180)"/>
+      <rect id="Rectangle_52" data-name="Rectangle 52" class="cls-1" width="173" height="59" rx="29.5" transform="translate(629.486 656.126) rotate(-150)"/>
+    </g>
+    <g id="Group_13" data-name="Group 13">
+      <path id="Subtraction_23" data-name="Subtraction 23" class="cls-1" d="M116.592,983.288h0L65.311,953.681a35.06,35.06,0,0,0-9.08-3.671l76.3-44.053a29.5,29.5,0,1,1,29.5,51.1l-45.441,26.235Z" transform="translate(268.991 -372.84)"/>
+      <rect id="Rectangle_45" data-name="Rectangle 45" class="cls-1" width="173" height="59" rx="29.5" transform="translate(306.749 575.367) rotate(30)"/>
+    </g>
+  </g>
+</svg>

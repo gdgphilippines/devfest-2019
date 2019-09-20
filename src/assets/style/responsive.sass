@@ -1,0 +1,12 @@
+$phone: (start: 0px, end: 699px)
+$tablet: (start: 700px, end: 1023px)
+$desktop: (start: 1024px, end: 1639px)
+$hd: (start: 1640px, end: 1920px)
+
+@mixin from($breakpoint)
+  @media screen and (min-width: map-get($breakpoint, start))
+    @content
+
+@mixin to($breakpoint)
+  @media screen and (max-width: map-get($breakpoint, end))
+    @content
