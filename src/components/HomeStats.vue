@@ -21,7 +21,7 @@
           <div class="HomeStats__statName">Attendees</div>
         </div>
         <div class="HomeStats__stat">
-          <div class="HomeStats__statNumber">14</div>
+          <div class="HomeStats__statNumber">17</div>
           <div class="HomeStats__statDivider"></div>
           <div class="HomeStats__statName">Speakers</div>
         </div>
