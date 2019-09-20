@@ -4,9 +4,9 @@
     <HomeStats></HomeStats>
     <HomeTickets></HomeTickets>
     <HomeInclusions></HomeInclusions>
-    <HomePhotos></HomePhotos>
+    <!-- <HomePhotos></HomePhotos> -->
     <HomeAboutGDG></HomeAboutGDG>
-    <HomeMap></HomeMap>
+    <!-- <HomeMap></HomeMap> -->
     <HomeSponsors></HomeSponsors>
     <HomeFooter></HomeFooter>
   </div>
