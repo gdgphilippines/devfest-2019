@@ -131,7 +131,7 @@
         color: $color-on-surface
 
         &.router-link-exact-active
-          border-bottom-color: $color-primary !important
+          border-bottom-color: $color-accent !important
 
   &__asidebg
     width: 100%
