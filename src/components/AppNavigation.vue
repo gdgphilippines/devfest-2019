@@ -112,7 +112,9 @@
     top: 0
     background-color: transparent
     color: $color-on-background
-    transition: 0.2s background-color
+    transition: 0.2s background-color, 0.2s box-shadow
+    box-shadow: 0px 4px 4px rgba(0,0,0,0)
+    will-change: background-color, box-shadow
 
     &--fill
       background-color: $color-surface
