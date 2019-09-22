@@ -36,8 +36,8 @@
           :key="photo"
           v-for="photo in selectedAlbum.photos"
         >
-          <clazy-load :src="photo">
-            <transition name="fadescale" appear :ratio="0.1" :threshold="0">
+          <clazy-load :src="photo" :threshold="0" :ratio="0">
+            <transition name="fadescale" appear>
               <div class="HomePhotos__photo" :style="{backgroundImage: 'url(' + photo + ')'}"></div>
             </transition>
             <div class="preloader" slot="placeholder"></div>
