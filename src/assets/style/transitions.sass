@@ -28,3 +28,12 @@
     transition: transform 0.5s
   &-enter, &-leave-to
     transform: translateX(-100%)
+
+.fadescale
+  &-enter-active, &-leave-active 
+    transition: opacity .5s, transform 0.5s
+  &-enter
+    transform: translateY(1rem)
+    opacity: 0
+  &-leave-to
+    opacity: 0

@@ -13,7 +13,7 @@
         <p>Google Developer Group (GDG) Philippines is a group of enthusiastic Filipino developers interested to collaborate and learn more about new technologies.</p>
         <p>GDG Philippines is an independent group; our activities and the opinions expressed on any of our official social media pages should in no way be linked to Google, the corporation.</p>
         <a
-          class="button-link button-link--white"
+          class="button-link"
           target="_blank"
           rel="noreferrer"
           href="https://www.gdgph.org/#/team"
@@ -28,8 +28,8 @@
 @import '../assets/style'
 .HomeAboutGDG
   background-color: $color-surface
-  background: url(/assets/abstract-background.png)
-  background-size: cover
+  // background: url(/assets/abstract-background.png)
+  // background-size: cover
 
 
   &__container
