@@ -6,6 +6,7 @@
     <HomeInclusions></HomeInclusions>
     <HomePhotos></HomePhotos>
     <HomeAboutGDG></HomeAboutGDG>
+    <HomeMap></HomeMap>
     <HomeSponsors></HomeSponsors>
     <HomeFooter></HomeFooter>
   </div>
@@ -18,6 +19,7 @@ import HomeTickets from "@/components/HomeTickets";
 import HomeInclusions from "@/components/HomeInclusions";
 import HomePhotos from "@/components/HomePhotos";
 import HomeAboutGDG from "@/components/HomeAboutGDG";
+import HomeMap from "@/components/HomeMap";
 import HomeSponsors from "@/components/HomeSponsors";
 import HomeFooter from "@/components/HomeFooter";
 
@@ -35,6 +37,7 @@ export default {
     HomeTickets,
     HomeInclusions,
     HomePhotos,
+    HomeMap,
     HomeAboutGDG,
     HomeSponsors,
     HomeFooter
