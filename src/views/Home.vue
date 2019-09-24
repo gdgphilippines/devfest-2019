@@ -6,7 +6,6 @@
     <HomeInclusions></HomeInclusions>
     <HomePhotos></HomePhotos>
     <HomeAboutGDG></HomeAboutGDG>
-    <!-- <HomeMap></HomeMap> -->
     <HomeSponsors></HomeSponsors>
     <HomeFooter></HomeFooter>
   </div>
@@ -19,17 +18,12 @@ import HomeTickets from "@/components/HomeTickets";
 import HomeInclusions from "@/components/HomeInclusions";
 import HomePhotos from "@/components/HomePhotos";
 import HomeAboutGDG from "@/components/HomeAboutGDG";
-import HomeMap from "@/components/HomeMap";
 import HomeSponsors from "@/components/HomeSponsors";
 import HomeFooter from "@/components/HomeFooter";
 
 export default {
   name: "home",
   mounted() {
-    // window.scrollTo(0, 0);
-    // setTimeout(() => {
-    //   window.scrollTo(0, 0);
-    // }, 300);
     window.addEventListener("beforeunload", function() {
       window.document.body.style.display = "none";
       window.scrollTo(0, 0);
@@ -42,7 +36,6 @@ export default {
     HomeInclusions,
     HomePhotos,
     HomeAboutGDG,
-    HomeMap,
     HomeSponsors,
     HomeFooter
   }
