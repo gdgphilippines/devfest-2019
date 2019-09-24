@@ -1,6 +1,8 @@
 # devfest-2019-vue
 
 ## Project setup
+
+[Watch Project Setup tutorial (YouTube Playlist)](https://www.youtube.com/watch?v=TsvN8V28vzk&list=PL-rPI5xuQm55h5DMWM96mmz_zBnJVvDMf)
 ```
 npm install
 ```
