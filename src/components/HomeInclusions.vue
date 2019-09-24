@@ -65,8 +65,9 @@
   &__inclusions
     display: flex
     flex-wrap: wrap
-    place-items: center
-    justify-content: space-evenly
+    justify-content: space-around
+
+    
     
   &__inclusion
     width: 10rem
