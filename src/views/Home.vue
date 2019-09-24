@@ -6,7 +6,7 @@
     <HomeInclusions></HomeInclusions>
     <HomePhotos></HomePhotos>
     <HomeAboutGDG></HomeAboutGDG>
-    <HomeMap></HomeMap>
+    <!-- <HomeMap></HomeMap> -->
     <HomeSponsors></HomeSponsors>
     <HomeFooter></HomeFooter>
   </div>
