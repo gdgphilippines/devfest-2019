@@ -161,7 +161,7 @@ export default {
     flex-direction: column
     align-items: center
     justify-content: center
-    background: linear-gradient($color-secondary, transparent, transparent, $color-secondary)
+    background: linear-gradient($color-secondary, transparent, $color-secondary)
 
   [v-cloak]
     animation-name: ssrfade
