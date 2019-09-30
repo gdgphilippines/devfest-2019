@@ -8,12 +8,7 @@
         <h1 class="HomeTickets__ticketName">Blind Bird</h1>
         <h2 class="HomeTickets__ticketPrice">Php 2,000</h2>
         <p class="HomeTickets__ticketDetails">Sold out!</p>
-        <a
-          class="HomeTickets__button"
-          rel="noreferrer"
-          target="_blank"
-          href="https://gdgdevfest2019.eventbrite.com"
-        >
+        <a class="HomeTickets__button">
           <svg style="width:24px;height:24px" viewBox="0 0 24 24">
             <path
               fill="#ffffff"
@@ -29,12 +24,7 @@
         <p class="HomeTickets__ticketDetails">
           <b>Limited offer only!</b>
         </p>
-        <a
-          class="HomeTickets__button"
-          rel="noreferrer"
-          target="_blank"
-          href="https://gdgdevfest2019.eventbrite.com"
-        >
+        <a class="HomeTickets__button" @click.prevent="scrollToPaymentMethods()">
           <svg style="width:24px;height:24px" viewBox="0 0 24 24">
             <path
               fill="#ffffff"
@@ -52,7 +42,8 @@
       </div>
     </div>
     <br />
-    <!-- <br />
+    <br />
+    <a name="paymentmethods" style="padding-top: 4rem; display: inline-block"></a>
     <center>
       <h1 class="section-title">Payment Methods</h1>
       <div class="HomeTickets__paymentmodes">
@@ -79,7 +70,11 @@
             </svg>
             <span style="color: #ffffff">Eventbrite</span>
           </a>
-          <div class="HomeTickets__customlink" style="background-color: #AA2222">
+          <div
+            class="HomeTickets__customlink"
+            @click="QRModalShown = true"
+            style="background-color: #AA2222"
+          >
             <svg style="width:24px;height:24px" viewBox="0 0 24 24">
               <path
                 fill="#ffffff"
@@ -107,7 +102,10 @@
             Acct Name: Rochelae Faye Estacio
             <br />Acct number: 399 0155 142
           </p>
-          <div style="display: flex; align-items: center; justify-content: center">
+          <div
+            style="display: flex; align-items: center; justify-content: center; cursor: pointer"
+            @click="PaymentInstructionsModalShown = true"
+          >
             <svg style="width:24px;height:24px" viewBox="0 0 24 24">
               <path
                 fill="#ffffff"
@@ -120,29 +118,116 @@
         </div>
       </div>
     </center>
-    <div class="HomeTickets__modalwrapper" v-if="QRModalShown">
-      <div class="HomeTickets__modal">
-        <center>
-          <h4>BPI QR Code</h4>
-        </center>
-        <p>
-          <a
-            href="https://www.bpiexpressonline.com/p/1/2188/how-to-transfer-via-qr-code"
-            rel="noreferrer"
-            target="_blank"
-            style="display: flex; align-items: center; text-decoration: none; color: white;"
-          >
-            <span>Learn how to Transfer via QR Code</span>
-            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-              <path
-                fill="#ffffff"
-                d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
-              />
-            </svg>
-          </a>
-        </p>
+    <transition name="scalein">
+      <div class="HomeTickets__modalwrapper" v-if="QRModalShown">
+        <div class="HomeTickets__modalbackground" @click="QRModalShown = false"></div>
+        <div class="HomeTickets__modal">
+          <center>
+            <h4>BPI QR Code</h4>
+          </center>
+          <center>
+            <span>GDGPH XXXXXXXXXXX811</span>
+            <br />
+            <br />
+            <clazy-load src="/assets/qr-fbc424cf5fcbd5d.svg">
+              <transition name="fade" appear>
+                <img src="/assets/qr-fbc424cf5fcbd5d.svg" style="max-width: 90%; width: 20rem" />
+              </transition>
+            </clazy-load>
+          </center>
+          <center>
+            <h3>Instructions</h3>
+          </center>
+          <ol style="line-height: 150%">
+            <li>
+              Check out current ticket rate available at the website.
+            </li>
+            <li>
+              Pay your tickets thru BPI Mobile App
+              <br />
+              <a
+                href="https://www.bpiexpressonline.com/p/1/2188/how-to-transfer-via-qr-code"
+                rel="noreferrer"
+                target="_blank"
+                style="color: white;"
+              >
+                <span>Learn how to Transfer via QR Code</span>
+
+                <svg style="width:18px;height:18px" viewBox="0 0 24 24">
+                  <path
+                    fill="#ffffff"
+                    d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              Fill out the
+              <a
+                style="color: white"
+                href="https://docs.google.com/forms/d/1Gs0kj2JGKz-ZIPV_M3TcM3GWrWvBS5Mt6LdptWnykyk/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Google Form
+                <svg style="width:18px;height:18px" viewBox="0 0 24 24">
+                  <path
+                    fill="#ffffff"
+                    d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
+                  />
+                </svg>
+              </a>
+              and upload your transaction details.
+            </li>
+            <li>Wait for an email for your ticket.</li>
+          </ol>
+          <center>
+            <button @click="QRModalShown = false" class="HomeTickets__modalbutton">Close</button>
+          </center>
+        </div>
       </div>
-    </div>-->
+    </transition>
+    <transition name="scalein">
+      <div class="HomeTickets__modalwrapper" v-if="PaymentInstructionsModalShown">
+        <div class="HomeTickets__modalbackground" @click="PaymentInstructionsModalShown = false"></div>
+        <div class="HomeTickets__modal">
+          <center>
+            <h3>Instructions</h3>
+          </center>
+          <ol style="line-height: 150%">
+            <li>
+              Check out current ticket rate available at the website.
+            </li>
+            <li>Pay your tickets thru BPI or BDO</li>
+            <li>
+              Fill out the
+              <a
+                style="color: white"
+                rel="noreferrer"
+                target="_blank"
+                href="https://docs.google.com/forms/d/1Gs0kj2JGKz-ZIPV_M3TcM3GWrWvBS5Mt6LdptWnykyk/"
+              >
+                Google Form
+                <svg style="width:18px;height:18px" viewBox="0 0 24 24">
+                  <path
+                    fill="#ffffff"
+                    d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
+                  />
+                </svg>
+              </a>
+              and attach your transaction details.
+            </li>
+            <li>Wait for an email for your ticket.</li>
+          </ol>
+          <center>
+            <button
+              @click="PaymentInstructionsModalShown = false"
+              class="HomeTickets__modalbutton"
+            >Close</button>
+          </center>
+        </div>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -247,6 +332,7 @@
       font-size: 1.25rem
 
   & .HomeTickets__button
+    cursor: pointer
     text-decoration: none
     background-color: $color-primary
     color: $color-on-primary
@@ -257,6 +343,7 @@
     display: inline-flex
     align-items: center
     transition: 0.2s background-color
+    font-size: 1.1rem
     @include from($hd)
       font-size: 1.5rem
       padding: 0.75rem 1.5rem
@@ -271,12 +358,18 @@
     display: flex
     justify-content: center
     flex-wrap: wrap
+    
   
   &__paymentmode
+    width: 100%
     border: 2px solid $color-on-background
     border-radius: 1rem
-    margin: 2rem
-    padding: 1rem 2rem
+    padding: 1rem 1rem
+    margin-top: 2rem
+    @include from($tablet)
+      padding: 1rem 2rem
+      margin: 2rem
+      width: auto
 
   &__paymentmodetitle
     font-weight: normal
@@ -288,10 +381,13 @@
     display: flex
     padding: 1rem
     width: 15rem
+    max-width: 100%
     border-radius: 1rem
     align-items: center
     justify-content: center
     margin-bottom: 1rem
+    &:hover
+      filter: brightness(1.05)
     span
       font-weight: bold
       margin-left: 0.5rem
@@ -307,6 +403,7 @@
     width: 5rem
 
   &__modalwrapper
+    transition-duration: 0.3s !important
     top: 0
     left: 0
     position: fixed
@@ -319,7 +416,31 @@
   &__modal
     margin: auto
     background-color: $color-surface
-    padding: 1rem
+    padding: 0.5rem
+    z-index: 10
+    font-size: 1.15rem
+    max-height: 90vh
+    overflow: auto
+    @include from($tablet)
+      padding: 1rem
+
+  &__modalbackground
+    position: fixed
+    width: 100%
+    height: 100vh
+    top: 0
+    left: 0
+    background-color: rgba(0,0,0,0.75)
+
+  &__modalbutton
+    background-color: transparent
+    color: $color-on-background
+    padding: 0.5rem 1rem
+    border: 2px solid $color-on-background
+    border-radius: 1rem
+    font-size: 1.15rem
+    cursor: pointer
+    margin-bottom: 1rem
 
 
 </style>
@@ -328,8 +449,14 @@
 export default {
   data: function() {
     return {
-      QRModalShown: true
+      QRModalShown: false,
+      PaymentInstructionsModalShown: false
     };
+  },
+  methods: {
+    scrollToPaymentMethods() {
+      window.document.querySelector("[name=paymentmethods]").scrollIntoView();
+    }
   }
 };
 </script>
