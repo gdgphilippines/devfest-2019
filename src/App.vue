@@ -22,7 +22,6 @@
 
 html,body
   scroll-behavior: smooth
-  overflow: overlay
   font-family: $font-family-primary
 
 button, input

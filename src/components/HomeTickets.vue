@@ -8,12 +8,7 @@
         <h1 class="HomeTickets__ticketName">Blind Bird</h1>
         <h2 class="HomeTickets__ticketPrice">Php 2,000</h2>
         <p class="HomeTickets__ticketDetails">Sold out!</p>
-        <a
-          class="HomeTickets__button"
-          rel="noreferrer"
-          target="_blank"
-          href="https://gdgdevfest2019.eventbrite.com"
-        >
+        <a class="HomeTickets__button">
           <svg style="width:24px;height:24px" viewBox="0 0 24 24">
             <path
               fill="#ffffff"
@@ -29,12 +24,7 @@
         <p class="HomeTickets__ticketDetails">
           <b>Limited offer only!</b>
         </p>
-        <a
-          class="HomeTickets__button"
-          rel="noreferrer"
-          target="_blank"
-          href="https://gdgdevfest2019.eventbrite.com"
-        >
+        <a class="HomeTickets__button" @click.prevent="scrollToPaymentMethods()">
           <svg style="width:24px;height:24px" viewBox="0 0 24 24">
             <path
               fill="#ffffff"
@@ -53,6 +43,191 @@
     </div>
     <br />
     <br />
+    <a name="paymentmethods" style="padding-top: 4rem; display: inline-block"></a>
+    <center>
+      <h1 class="section-title">Payment Methods</h1>
+      <div class="HomeTickets__paymentmodes">
+        <div class="HomeTickets__paymentmode">
+          <svg style="width:42px;height:42px" viewBox="0 0 24 24">
+            <path
+              fill="#ffffff"
+              d="M21,8V6H7V8H21M21,16V11H7V16H21M21,4A2,2 0 0,1 23,6V16A2,2 0 0,1 21,18H7C5.89,18 5,17.1 5,16V6C5,4.89 5.89,4 7,4H21M3,20H18V22H3A2,2 0 0,1 1,20V9H3V20Z"
+            />
+          </svg>
+          <h2 class="HomeTickets__paymentmodetitle">Online Payment</h2>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://gdgdevfest2019.eventbrite.com"
+            class="HomeTickets__customlink"
+            style="background-color: #D1410C"
+          >
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+              <path
+                fill="#ffffff"
+                d="M12,17.5C10.15,17.5 8.42,16.56 7.41,15L17.41,12.75L22.08,11.75C22.05,10.32 21.71,8.92 21.08,7.64C18.66,2.61 12.62,0.5 7.58,2.92C2.55,5.34 0.44,11.38 2.86,16.41C5.29,21.44 11.33,23.56 16.36,21.14C18.5,20.09 20.25,18.31 21.22,16.11L16.61,15C15.6,16.57 13.86,17.5 12,17.5M12,6.5C13.76,6.5 15.41,7.34 16.44,8.77L6.57,11.19C6.96,8.5 9.28,6.5 12,6.5Z"
+              />
+            </svg>
+            <span style="color: #ffffff">Eventbrite</span>
+          </a>
+          <div
+            class="HomeTickets__customlink"
+            @click="QRModalShown = true"
+            style="background-color: #AA2222"
+          >
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+              <path
+                fill="#ffffff"
+                d="M4,4H10V10H4V4M20,4V10H14V4H20M14,15H16V13H14V11H16V13H18V11H20V13H18V15H20V18H18V20H16V18H13V20H11V16H14V15M16,15V18H18V15H16M4,20V14H10V20H4M6,6V8H8V6H6M16,6V8H18V6H16M6,16V18H8V16H6M4,11H6V13H4V11M9,11H13V15H11V13H9V11M11,6H13V10H11V6M2,2V6H0V2A2,2 0 0,1 2,0H6V2H2M22,0A2,2 0 0,1 24,2V6H22V2H18V0H22M2,18V22H6V24H2A2,2 0 0,1 0,22V18H2M22,22V18H24V22A2,2 0 0,1 22,24H18V22H22Z"
+              />
+            </svg>
+            <span style="color: #ffffff">BPI QR Code</span>
+          </div>
+        </div>
+        <div class="HomeTickets__paymentmode">
+          <svg style="width:42px;height:42px" viewBox="0 0 24 24">
+            <path
+              fill="#ffffff"
+              d="M11.5,1L2,6V8H21V6M16,10V17H19V10M2,22H21V19H2M10,10V17H13V10M4,10V17H7V10H4Z"
+            />
+          </svg>
+          <h2 class="HomeTickets__paymentmodetitle">Offline Payment</h2>
+          <h3 class="HomeTickets__paymentmodebank">BPI</h3>
+          <p class="HomeTickets__paymentmodebody">
+            Acct Name: Jielynn Diroy
+            <br />Acct Number: 2289 2988 11
+          </p>
+          <h3 class="HomeTickets__paymentmodebank">BDO</h3>
+          <p class="HomeTickets__paymentmodebody">
+            Acct Name: Rochelae Faye Estacio
+            <br />Acct number: 399 0155 142
+          </p>
+          <div
+            style="display: flex; align-items: center; justify-content: center; cursor: pointer"
+            @click="PaymentInstructionsModalShown = true"
+          >
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+              <path
+                fill="#ffffff"
+                d="M11,18H13V16H11V18M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,6A4,4 0 0,0 8,10H10A2,2 0 0,1 12,8A2,2 0 0,1 14,10C14,12 11,11.75 11,15H13C13,12.75 16,12.5 16,10A4,4 0 0,0 12,6Z"
+              />
+            </svg>
+            &nbsp;
+            <span>Payment Instructions</span>
+          </div>
+        </div>
+      </div>
+    </center>
+    <transition name="scalein">
+      <div class="HomeTickets__modalwrapper" v-if="QRModalShown">
+        <div class="HomeTickets__modalbackground" @click="QRModalShown = false"></div>
+        <div class="HomeTickets__modal">
+          <center>
+            <h4>BPI QR Code</h4>
+          </center>
+          <center>
+            <span>GDGPH XXXXXXXXXXX811</span>
+            <br />
+            <br />
+            <clazy-load src="/assets/qr-fbc424cf5fcbd5d.svg">
+              <transition name="fade" appear>
+                <img src="/assets/qr-fbc424cf5fcbd5d.svg" style="max-width: 90%; width: 20rem" />
+              </transition>
+            </clazy-load>
+          </center>
+          <center>
+            <h3>Instructions</h3>
+          </center>
+          <ol style="line-height: 150%">
+            <li>
+              Check out current ticket rate available at the website.
+            </li>
+            <li>
+              Pay your tickets thru BPI Mobile App
+              <br />
+              <a
+                href="https://www.bpiexpressonline.com/p/1/2188/how-to-transfer-via-qr-code"
+                rel="noreferrer"
+                target="_blank"
+                style="color: white;"
+              >
+                <span>Learn how to Transfer via QR Code</span>
+
+                <svg style="width:18px;height:18px" viewBox="0 0 24 24">
+                  <path
+                    fill="#ffffff"
+                    d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              Fill out the
+              <a
+                style="color: white"
+                href="https://docs.google.com/forms/d/1Gs0kj2JGKz-ZIPV_M3TcM3GWrWvBS5Mt6LdptWnykyk/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Google Form
+                <svg style="width:18px;height:18px" viewBox="0 0 24 24">
+                  <path
+                    fill="#ffffff"
+                    d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
+                  />
+                </svg>
+              </a>
+              and upload your transaction details.
+            </li>
+            <li>Wait for an email for your ticket.</li>
+          </ol>
+          <center>
+            <button @click="QRModalShown = false" class="HomeTickets__modalbutton">Close</button>
+          </center>
+        </div>
+      </div>
+    </transition>
+    <transition name="scalein">
+      <div class="HomeTickets__modalwrapper" v-if="PaymentInstructionsModalShown">
+        <div class="HomeTickets__modalbackground" @click="PaymentInstructionsModalShown = false"></div>
+        <div class="HomeTickets__modal">
+          <center>
+            <h3>Instructions</h3>
+          </center>
+          <ol style="line-height: 150%">
+            <li>
+              Check out current ticket rate available at the website.
+            </li>
+            <li>Pay your tickets thru BPI or BDO</li>
+            <li>
+              Fill out the
+              <a
+                style="color: white"
+                rel="noreferrer"
+                target="_blank"
+                href="https://docs.google.com/forms/d/1Gs0kj2JGKz-ZIPV_M3TcM3GWrWvBS5Mt6LdptWnykyk/"
+              >
+                Google Form
+                <svg style="width:18px;height:18px" viewBox="0 0 24 24">
+                  <path
+                    fill="#ffffff"
+                    d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
+                  />
+                </svg>
+              </a>
+              and attach your transaction details.
+            </li>
+            <li>Wait for an email for your ticket.</li>
+          </ol>
+          <center>
+            <button
+              @click="PaymentInstructionsModalShown = false"
+              class="HomeTickets__modalbutton"
+            >Close</button>
+          </center>
+        </div>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -157,6 +332,7 @@
       font-size: 1.25rem
 
   & .HomeTickets__button
+    cursor: pointer
     text-decoration: none
     background-color: $color-primary
     color: $color-on-primary
@@ -167,6 +343,7 @@
     display: inline-flex
     align-items: center
     transition: 0.2s background-color
+    font-size: 1.1rem
     @include from($hd)
       font-size: 1.5rem
       padding: 0.75rem 1.5rem
@@ -176,7 +353,110 @@
 
     span
       margin-left: 0.5rem
+
+  &__paymentmodes
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    
   
+  &__paymentmode
+    width: 100%
+    border: 2px solid $color-on-background
+    border-radius: 1rem
+    padding: 1rem 1rem
+    margin-top: 2rem
+    @include from($tablet)
+      padding: 1rem 2rem
+      margin: 2rem
+      width: auto
+
+  &__paymentmodetitle
+    font-weight: normal
+
+  &__customlink
+    text-decoration: none
+    cursor: pointer
+    background-color: $color-on-background
+    display: flex
+    padding: 1rem
+    width: 15rem
+    max-width: 100%
+    border-radius: 1rem
+    align-items: center
+    justify-content: center
+    margin-bottom: 1rem
+    &:hover
+      filter: brightness(1.05)
+    span
+      font-weight: bold
+      margin-left: 0.5rem
+      color: #333
+
+
+  &__paymentmodebank
+    background-color: $color-on-background
+    display: inline-block
+    color: $color-primary
+    padding: 0.25rem
+    margin: 0
+    width: 5rem
+
+  &__modalwrapper
+    transition-duration: 0.3s !important
+    top: 0
+    left: 0
+    position: fixed
+    width: 100vw
+    height: 100vh
+    display: flex
+    z-index: 10
+
+
+  &__modal
+    margin: auto
+    background-color: $color-surface
+    padding: 0.5rem
+    z-index: 10
+    font-size: 1.15rem
+    max-height: 90vh
+    overflow: auto
+    @include from($tablet)
+      padding: 1rem
+
+  &__modalbackground
+    position: fixed
+    width: 100%
+    height: 100vh
+    top: 0
+    left: 0
+    background-color: rgba(0,0,0,0.75)
+
+  &__modalbutton
+    background-color: transparent
+    color: $color-on-background
+    padding: 0.5rem 1rem
+    border: 2px solid $color-on-background
+    border-radius: 1rem
+    font-size: 1.15rem
+    cursor: pointer
+    margin-bottom: 1rem
 
 
 </style>
+
+<script>
+export default {
+  data: function() {
+    return {
+      QRModalShown: false,
+      PaymentInstructionsModalShown: false
+    };
+  },
+  methods: {
+    scrollToPaymentMethods() {
+      window.document.querySelector("[name=paymentmethods]").scrollIntoView();
+    }
+  }
+};
+</script>
