@@ -100,7 +100,7 @@
           <h3 class="HomeTickets__paymentmodebank">BDO</h3>
           <p class="HomeTickets__paymentmodebody">
             Acct Name: Rochelae Faye Estacio
-            <br />Acct number: 399 0155 142
+            <br />Acct number: 00 399 0155 142
           </p>
           <div
             style="display: flex; align-items: center; justify-content: center; cursor: pointer"
@@ -139,9 +139,7 @@
             <h3>Instructions</h3>
           </center>
           <ol style="line-height: 150%">
-            <li>
-              Check out current ticket rate available at the website.
-            </li>
+            <li>Check out current ticket rate available at the website.</li>
             <li>
               Pay your tickets thru BPI Mobile App
               <br />
@@ -195,9 +193,7 @@
             <h3>Instructions</h3>
           </center>
           <ol style="line-height: 150%">
-            <li>
-              Check out current ticket rate available at the website.
-            </li>
+            <li>Check out current ticket rate available at the website.</li>
             <li>Pay your tickets thru BPI or BDO</li>
             <li>
               Fill out the
