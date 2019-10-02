@@ -8,10 +8,12 @@
           v-for="category in sponsorCategories"
           :key="category.name"
         >
-          <h1 class="HomeSponsors__categoryname">{{category.name}}</h1>
+          <h1 class="HomeSponsors__categoryname section-title">{{category.name}}</h1>
           <ul class="HomeSponsors__sponsors">
             <li v-for="sponsor in category.sponsors" :key="sponsor.name">
-              <img class="HomeSponsors__sponsorimage" :src="'/assets/partners/' + sponsor.image" />
+              <clazy-load :src="'/assets/partners/' + sponsor.image">
+                <img class="HomeSponsors__sponsorimage" :src="'/assets/partners/' + sponsor.image" />
+              </clazy-load>
             </li>
           </ul>
         </li>
@@ -105,10 +107,13 @@ export default {
     
 
   &__sponsorimage
-    max-width: 8rem
-    min-width: 4rem
+    max-width: 7rem
     max-height: 7rem
     margin: 2rem 4rem
+    @include from($hd)
+      margin: 3rem 5rem
+      max-width: 10rem
+      max-height: 10rem
 
   &__email a
     text-decoration: none
