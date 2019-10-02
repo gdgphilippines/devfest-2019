@@ -16,19 +16,18 @@
           <p
             class="HomePhotos__mainparagraph"
           >Check out photos from featured talks, hands-on learning sessions, and after-hours fun.</p>
-          <a
-            :href="selectedAlbum.link"
-            target="_blank"
-            rel="noreferrer"
-            class="HomePhotos__mainbutton button-link"
-          >
-            <transition name="scalein" mode="out-in">
-              <span
-                style="display: inline-block; transition-duration: 0.3s"
-                :key="selectedAlbum.year"
-              >{{selectedAlbum.year}}</span>
-            </transition>&nbsp;Highlight Photos
-          </a>
+          <transition name="scalein" mode="out-in">
+            <a
+              :key="selectedAlbum.year"
+              :href="selectedAlbum.link"
+              target="_blank"
+              rel="noreferrer"
+              class="HomePhotos__mainbutton button-link"
+            >
+              <span style="display: inline-block; transition-duration: 0.3s">{{selectedAlbum.year}}</span>
+              &nbsp;Highlight Photos
+            </a>
+          </transition>
         </div>
 
         <div

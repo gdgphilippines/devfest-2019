@@ -161,7 +161,7 @@ export default {
     flex-direction: column
     align-items: center
     justify-content: center
-    background: linear-gradient($color-secondary, transparent, transparent, $color-secondary)
+    background: linear-gradient($color-secondary, transparent, $color-secondary)
 
   [v-cloak]
     animation-name: ssrfade
@@ -372,14 +372,11 @@ export default {
       font-size: 1.65rem
 
   &__motto
-    display: flex
-    align-items: center
     font-size: 1.75rem
     min-height: 2.5rem
     margin-top: 2rem
     margin-bottom: 1.5rem
     color: $color-on-primary
-    
     text-align: center
     text-transform: uppercase
     @include from($tablet)
@@ -393,7 +390,6 @@ export default {
       min-height: 7.5rem
       margin-top: 4rem
       margin-bottom: 3rem
-
   &__cta
     margin-top: 2rem
     margin-bottom: 2rem
@@ -476,4 +472,7 @@ export default {
   .HomeLanding__video
     width: 300%
     left: -100%
+
+
 </style>
+

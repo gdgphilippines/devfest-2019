@@ -9,6 +9,7 @@
       Novotel Manila Araneta Center is a mid-scale hotel in Quezon City's business and leisure district with access to LRT and MRT stations.
       <h5>Gen. Aguinaldo Ave, Quezon City, Philippines</h5>
     </div>
+
   </div>
 </template>
 

@@ -26,10 +26,6 @@ import HomeFooter from "@/components/HomeFooter";
 export default {
   name: "home",
   mounted() {
-    // window.scrollTo(0, 0);
-    // setTimeout(() => {
-    //   window.scrollTo(0, 0);
-    // }, 300);
     window.addEventListener("beforeunload", function() {
       window.document.body.style.display = "none";
       window.scrollTo(0, 0);
@@ -41,8 +37,8 @@ export default {
     HomeTickets,
     HomeInclusions,
     HomePhotos,
-    HomeAboutGDG,
     HomeMap,
+    HomeAboutGDG,
     HomeSponsors,
     HomeFooter
   }

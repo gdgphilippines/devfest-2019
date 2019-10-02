@@ -49,7 +49,7 @@
   &__container
     padding: 1rem 1rem 3rem 1rem
     @include from($desktop)
-      padding: 3rem
+      padding: 2rem
       display: flex
       align-items: center
     @include from($hd)
