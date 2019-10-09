@@ -92,7 +92,7 @@
             </svg>
             <span class="HomeLanding__cta-text">Buy Ticket</span>
           </button>
-          <div class="HomeLanding__mouse"></div>
+          <div @click="scrollToNext()" class="HomeLanding__mouse"></div>
           <div class="preloader" slot="placeholder"></div>
         </clazy-load>
       </div>
@@ -110,6 +110,13 @@ export default {
       //   behavior: "smooth"
       // });
       window.document.querySelector(".HomeTickets").scrollIntoView();
+    },
+    scrollToNext() {
+      window.scroll({
+        top: window.document.querySelector(".HomeStats").offsetTop - 60,
+        left: 0,
+        behavior: "smooth"
+      });
     }
   }
 };
@@ -424,6 +431,7 @@ export default {
       margin-left: 1rem
 
   &__mouse
+    cursor: pointer
     width: 1.5rem
     height: 2.25rem
     border: 0.1rem solid $color-on-background
