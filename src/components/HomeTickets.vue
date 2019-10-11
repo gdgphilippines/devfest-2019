@@ -4,6 +4,36 @@
       <h1 class="section-title">Tickets</h1>
     </center>
     <div class="HomeTickets__tickets">
+      <div class="HomeTickets__ticket HomeTickets__ticket--active">
+        <h1 class="HomeTickets__ticketName">Regular</h1>
+        <h2 class="HomeTickets__ticketPrice">Php 3,000</h2>
+        <p class="HomeTickets__ticketDetails">
+          <b>Limited tickets available!</b>
+        </p>
+        <a class="HomeTickets__button" @click.prevent="scrollToPaymentMethods()">
+          <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path
+              fill="#ffffff"
+              d="M15.58,16.8L12,14.5L8.42,16.8L9.5,12.68L6.21,10L10.46,9.74L12,5.8L13.54,9.74L17.79,10L14.5,12.68M20,12C20,10.89 20.9,10 22,10V6C22,4.89 21.1,4 20,4H4A2,2 0 0,0 2,6V10C3.11,10 4,10.9 4,12A2,2 0 0,1 2,14V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V14A2,2 0 0,1 20,12Z"
+            />
+          </svg>
+          <span>Buy Ticket</span>
+        </a>
+      </div>
+      <div class="HomeTickets__ticket">
+        <h1 class="HomeTickets__ticketName">Early Bird</h1>
+        <h2 class="HomeTickets__ticketPrice">Php 2,500</h2>
+        <p class="HomeTickets__ticketDetails">Sold out!</p>
+        <a class="HomeTickets__button">
+          <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path
+              fill="#ffffff"
+              d="M15.58,16.8L12,14.5L8.42,16.8L9.5,12.68L6.21,10L10.46,9.74L12,5.8L13.54,9.74L17.79,10L14.5,12.68M20,12C20,10.89 20.9,10 22,10V6C22,4.89 21.1,4 20,4H4A2,2 0 0,0 2,6V10C3.11,10 4,10.9 4,12A2,2 0 0,1 2,14V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V14A2,2 0 0,1 20,12Z"
+            />
+          </svg>
+          <span>Buy Ticket</span>
+        </a>
+      </div>
       <div class="HomeTickets__ticket">
         <h1 class="HomeTickets__ticketName">Blind Bird</h1>
         <h2 class="HomeTickets__ticketPrice">Php 2,000</h2>
@@ -17,28 +47,6 @@
           </svg>
           <span>Buy Ticket</span>
         </a>
-      </div>
-      <div class="HomeTickets__ticket HomeTickets__ticket--active">
-        <h1 class="HomeTickets__ticketName">Early Bird</h1>
-        <h2 class="HomeTickets__ticketPrice">Php 2,500</h2>
-        <p class="HomeTickets__ticketDetails">
-          <b>Limited offer only!</b>
-        </p>
-        <a class="HomeTickets__button" @click.prevent="scrollToPaymentMethods()">
-          <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-            <path
-              fill="#ffffff"
-              d="M15.58,16.8L12,14.5L8.42,16.8L9.5,12.68L6.21,10L10.46,9.74L12,5.8L13.54,9.74L17.79,10L14.5,12.68M20,12C20,10.89 20.9,10 22,10V6C22,4.89 21.1,4 20,4H4A2,2 0 0,0 2,6V10C3.11,10 4,10.9 4,12A2,2 0 0,1 2,14V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V14A2,2 0 0,1 20,12Z"
-            />
-          </svg>
-          <span>Buy Ticket</span>
-        </a>
-      </div>
-      <div class="HomeTickets__ticket">
-        <h1 class="HomeTickets__ticketName">Regular</h1>
-        <h2 class="HomeTickets__ticketPrice">Php 3,000</h2>
-        <p class="HomeTickets__ticketDetails">Coming soon!</p>
-        <a class="HomeTickets__button">Coming soon!</a>
       </div>
     </div>
     <br />
@@ -176,6 +184,7 @@
                 </svg>
               </a>
               and upload your transaction details.
+              <br />(For Bundled payment, make sure to fill out the forms seperately depending on the number of ticket purchases and attach the same payment slip)
             </li>
             <li>Wait for an email for your ticket.</li>
           </ol>
@@ -194,7 +203,19 @@
           </center>
           <ol style="line-height: 150%">
             <li>Check out current ticket rate available at the website.</li>
-            <li>Pay your tickets thru BPI or BDO</li>
+            <li>
+              Go pay your tickets thru the following banks. (excluding the eventbrite fee)
+              <br />
+              <br />BPI
+              <br />Acct Name: Jielynn Diroy
+              <br />Acct Number: 2289 2988 11
+              <br />
+              <br />BDO
+              <br />Acct Name: Rochelae Faye Estacio
+              <br />Acct number: 00 399 0155 142
+              <br />
+              <br />
+            </li>
             <li>
               Fill out the
               <a
@@ -212,8 +233,9 @@
                 </svg>
               </a>
               and attach your transaction details.
+              <br />(For Bundled payment, make sure to fill out the forms seperately depending on the number of ticket purchases and attach the same payment slip)
             </li>
-            <li>Wait for an email for your ticket.</li>
+            <li>Wait for an email confirmation for your ticket.</li>
           </ol>
           <center>
             <button
@@ -419,6 +441,7 @@
     overflow: auto
     @include from($tablet)
       padding: 1rem
+      max-width: 50rem
 
   &__modalbackground
     position: fixed

@@ -20,6 +20,8 @@
         >Meet the Team</a>
       </div>
     </div>
+    <br />
+    <br />
   </div>
 </template>
 
