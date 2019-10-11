@@ -83,15 +83,18 @@
             </div>
           </transition>
           <br />
-          <button @click="scrollToTickets()" class="HomeLanding__cta">
+            <a href="https://drive.google.com/file/d/1tkYmUIaJ3PcVSm-tvm3aHAWZ2BHzReYo/view"   
+            target="none"
+            class="HomeLanding__cta">
             <svg style="width:24px;height:24px" viewBox="0 0 24 24">
               <path
                 fill="#ffffff"
-                d="M15.58,16.8L12,14.5L8.42,16.8L9.5,12.68L6.21,10L10.46,9.74L12,5.8L13.54,9.74L17.79,10L14.5,12.68M20,12C20,10.89 20.9,10 22,10V6C22,4.89 21.1,4 20,4H4A2,2 0 0,0 2,6V10C3.11,10 4,10.9 4,12A2,2 0 0,1 2,14V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V14A2,2 0 0,1 20,12Z"
+              d="M21,5C19.89,4.65 18.67,4.5 17.5,4.5C15.55,4.5 13.45,4.9 12,6C10.55,4.9 8.45,4.5 6.5,4.5C4.55,4.5 2.45,4.9 1,6V20.65C1,20.9 1.25,21.15 1.5,21.15C1.6,21.15 1.65,21.1 1.75,21.1C3.1,20.45 5.05,20 6.5,20C8.45,20 10.55,20.4 12,21.5C13.35,20.65 15.8,20 17.5,20C19.15,20 20.85,20.3 22.25,21.05C22.35,21.1 22.4,21.1 22.5,21.1C22.75,21.1 23,20.85 23,20.6V6C22.4,5.55 21.75,5.25 21,5M21,18.5C19.9,18.15 18.7,18 17.5,18C15.8,18 13.35,18.65 12,19.5V8C13.35,7.15 15.8,6.5 17.5,6.5C18.7,6.5 19.9,6.65 21,7V18.5Z"
               />
             </svg>
-            <span class="HomeLanding__cta-text">Buy Ticket</span>
-          </button>
+            <span class="HomeLanding__cta-text">Download Primer</span>
+            </a>
+          
           <div @click="scrollToNext()" class="HomeLanding__mouse"></div>
           <div class="preloader" slot="placeholder"></div>
         </clazy-load>
@@ -412,7 +415,7 @@ export default {
     align-items: center
     transition: 0.2s background-color
     @include from($tablet)
-      display: none
+ 
 
     &:hover
       background-color: transparentize($color-on-primary, 0.7)
