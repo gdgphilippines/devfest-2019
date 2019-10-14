@@ -89,5 +89,32 @@ Furthermore, he is the creator of Remote for Slides, a Chrome Extension + Progre
     country: 'United States',
     bio: 'Currently the Regional Director for APAC at Stack Overflow, a global Q&A community platform for developers to share knowledge and collaborate, Mark works with C-level executives to demonstrate how software developers are the key to unlocking innovation and provide advice on how to engage them. He is also the founder of the Enterprise Sales Forum, a community for B2B sales professionals and leaders to share ideas, network with peers, and learn innovations in the field of sales comprising over 20 global chapters and 25,000 members. Previously he worked at a diverse group of leading technology companies including Oracle, E.piphany and Siebel. Mark graduated with a Bachelor of Science in Electrical Engineering from Boston University.',
     session: 'Building Internal Developer Communities'
-  } 
+  },
+  {
+    id:'alex-solis',
+    name: 'Alex Solis',
+    position: '',
+    company: 'Cast & Crew',
+    country: 'USA',
+    bio: '',
+    session: ''
+  },
+  {
+    id:'joshua-deguzman',
+    name: ' Joshua De Guzman',
+    position: 'Mobile Software Engineer',
+    company: 'Freelancer.com',
+    country: 'Philippines',
+    bio: '',
+    session: 'Integrate Flutter Views In Your Existing Native Mobile Codebase'
+  },
+  {
+    id:'jean-alfonsodecea',
+    name: 'Jean Alfonso-Decena',
+    position: 'Senior AI Trainer and Designer',
+    company: 'Starbutter AI',
+    country: 'Philippines',
+    bio: '',
+    session: 'AI Workforce - Jobs of the Future in the Present'
+  }
 ];
