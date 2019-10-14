@@ -9,7 +9,7 @@ export default [
 Jay has worked with Twitter, Pinterest, Yahoo, and Grab. He's also worked on notable projects such as the Bay Lights, Gaspar Brasserie, and San Francisco's Park System SFPark. Jay is an adjunct professor at CCA in San Francisco and has taught/spoken in China for ACG. Educated as a print designer at first, Jay has pushed his career by evolving with the trends whether if it was motion design to UX design, he’s become the do-it-all designer and is ready talk about his journey.`,
     session: 'Designing for Cultures: Redesigning GrabFood' // Session title for now
   },
-  {
+  { 
     id: 'amit-walia',
     name: 'Amit Paul Walia',
     position: 'CEO and Founder',
@@ -30,7 +30,7 @@ Instead of resting on his extensive know-how, he uses every opportunity to furth
     bio: `Akshay Bahadur’s interest towards Computer Science sparked when he was working on a women's safety application aimed towards the women welfare in India and since then he has been incessantly working on improving his skills. He has made successful prototypes such as an autonomous car, alphabet recognition, cancer classification, gesture recognition with the use of learning models. These prototypes showcase the power of deep learning and how it can help your organization implement learning models to solve business cases. His ambition is to make valuable contribution towards ML community and leave a message of perseverance and tenacity. Currently,  working as a Software Engineer at Symantec, India. He’s one of the 8 Google Developer Experts (Machine Learning) from India along with being one of the 150 members worldwide for Intel Software Innovator program and is also deeply influenced by literature especially Shakespeare's work.`,
     session: 'Resource utilization as a metric for Machine Learning' // Session title for now
   },
-  {
+  { 
     id: 'vin-lim',
     name: 'Vin Lim',
     position: 'Director',
@@ -71,5 +71,23 @@ Furthermore, he is the creator of Remote for Slides, a Chrome Extension + Progre
     country: 'Singapore',
     bio: `Jason is the community lead for TensorFlow SIG-Build and is an ML-GDE. He works as a Machine Learning engineer at Light Labs doing computational photography in mobile cameras. Along with speaking regularly on different conferences, he is also active in Open Source development as a Gentoo Linux developer and maintainer of the SELinux Project.`,
     session: 'On-device ML with TensorFlow 2.0 and TFLite' // Session title for now
-  }
+  },
+  {
+    id:'jeongkyu-shin',
+    name: 'Jeongkyu Shin',
+    position: 'CEO / Researcher',
+    company: 'Lablup Inc.',
+    country: 'South Korea',
+    bio: 'Jeongkyu Shin is the Founder of Laplup Inc., an AI company in South Korea, membered with nine Ph.D cofounders and industry/acdemia-leading trailblazers. He is also a Google Developer Expert for Machine Learning and Sprint Master and an Adj. Professor at Hanyang University. A huge advocate of open source projects and has his interests in Opinion formation Dynamics on Complex Systems and studying or modeling neuroscience and social systems ',
+    session: 'Boosting machine learning workflow with TensorFlow 2.0' //Session title for now
+  },
+  { 
+    id:'mark-birch',
+    name: ' Mark Birch',
+    position: 'Regional Director for APAC',
+    company: 'Stack Overflow',
+    country: 'United States',
+    bio: 'Currently the Regional Director for APAC at Stack Overflow, a global Q&A community platform for developers to share knowledge and collaborate, Mark works with C-level executives to demonstrate how software developers are the key to unlocking innovation and provide advice on how to engage them. He is also the founder of the Enterprise Sales Forum, a community for B2B sales professionals and leaders to share ideas, network with peers, and learn innovations in the field of sales comprising over 20 global chapters and 25,000 members. Previously he worked at a diverse group of leading technology companies including Oracle, E.piphany and Siebel. Mark graduated with a Bachelor of Science in Electrical Engineering from Boston University.',
+    session: 'Building Internal Developer Communities'
+  } 
 ];
