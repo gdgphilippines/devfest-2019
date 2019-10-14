@@ -1,4 +1,6 @@
-# devfest-2019-vue
+# GDG DevFest Philippines 2019
+
+Website for [GDG DevFest Philippines 2019](https://devfest.gdgph.org)
 
 ## Project setup
 
