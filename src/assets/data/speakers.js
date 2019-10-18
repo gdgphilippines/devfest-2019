@@ -1,5 +1,14 @@
 export default [
   {
+    id: 'bok-thye-yeow',
+    name: 'Bok Thye Yeow',
+    position: '?',
+    company: 'Google',
+    country: 'Singapore',
+    bio: `Bok Thye Yeow has more than a decade of experience developing full stack software solutions across various industries including telco, banking, digital and creative advertising, retail, etc. During his free time, he likes to experiment with new technology or fly his home-made drone. At Google, Bok leads developer programs focusing on professional and enterprise developers like Machine Learning Bootcamps across the region. Recently he and his team is working towards building a home for developers and startups across the region aka Developer Space @ Google Singapore. He strongly believes we are only starting to scratch the surface of what's possible with technology in this era and is looking forward to the "next big thing" to come!`,
+    session: 'Keynote' // Session title for now
+  },
+  {
     id: 'jason-demetillo',
     name: 'Jason Demetillo',
     position: 'Lead Designer',
