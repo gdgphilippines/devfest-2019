@@ -2,11 +2,11 @@ export default [
   {
     id: 'bok-thye-yeow',
     name: 'Bok Thye Yeow',
-    position: '?',
+    position: 'DevRel Program Manager',
     company: 'Google',
     country: 'Singapore',
     bio: `Bok Thye Yeow has more than a decade of experience developing full stack software solutions across various industries including telco, banking, digital and creative advertising, retail, etc. During his free time, he likes to experiment with new technology or fly his home-made drone. At Google, Bok leads developer programs focusing on professional and enterprise developers like Machine Learning Bootcamps across the region. Recently he and his team is working towards building a home for developers and startups across the region aka Developer Space @ Google Singapore. He strongly believes we are only starting to scratch the surface of what's possible with technology in this era and is looking forward to the "next big thing" to come!`,
-    session: 'Keynote' // Session title for now
+    session: 'Keynote'
   },
   {
     id: 'jason-demetillo',
@@ -28,7 +28,7 @@ Jay has worked with Twitter, Pinterest, Yahoo, and Grab. He's also worked on not
 What drives him: 16 years of passion and fascination for the web.
 His passion is bringing the latest solutions to his clients and search engine marketing. During his professional career in various web agencies, he optimized websites for numerous clients. These ranged from international companies with almost unlimited budgets to regional small businesses.
 Instead of resting on his extensive know-how, he uses every opportunity to further expand his expertise. He was an Online Marketing instructor at the SAE Institute in Switzerland and also a guest speaker in tech talks in Berlin, Germany.`,
-    session: 'Fearless SEO' // Session title for now
+    session: 'Fearless SEO'
   },
   {
     id: 'akshay-bahadur',
@@ -37,7 +37,7 @@ Instead of resting on his extensive know-how, he uses every opportunity to furth
     company: 'Symantec',
     country: 'India',
     bio: `Akshay Bahadur’s interest towards Computer Science sparked when he was working on a women's safety application aimed towards the women welfare in India and since then he has been incessantly working on improving his skills. He has made successful prototypes such as an autonomous car, alphabet recognition, cancer classification, gesture recognition with the use of learning models. These prototypes showcase the power of deep learning and how it can help your organization implement learning models to solve business cases. His ambition is to make valuable contribution towards ML community and leave a message of perseverance and tenacity. Currently,  working as a Software Engineer at Symantec, India. He’s one of the 8 Google Developer Experts (Machine Learning) from India along with being one of the 150 members worldwide for Intel Software Innovator program and is also deeply influenced by literature especially Shakespeare's work.`,
-    session: 'Resource utilization as a metric for Machine Learning' // Session title for now
+    session: 'Resource utilization as a metric for Machine Learning'
   },
   { 
     id: 'vin-lim',
