@@ -187,6 +187,15 @@
               <br />(For Bundled payment, make sure to fill out the forms seperately depending on the number of ticket purchases and attach the same payment slip)
             </li>
             <li>Wait for an email for your ticket.</li>
+            <br />
+            <strong>NOTICE:</strong>
+            <br />For Official Receipt requests, there will be an additional fee on top of the actual ticket cost. The OR will be issued weeks after the event. You may request OR here:
+            <a
+              style="color: white"
+              href="https://bit.ly/2k3SJmS"
+              target="_blank"
+              rel="noreferrer"
+            >https://bit.ly/2k3SJmS</a>
           </ol>
           <center>
             <button @click="QRModalShown = false" class="HomeTickets__modalbutton">Close</button>
@@ -236,6 +245,15 @@
               <br />(For Bundled payment, make sure to fill out the forms seperately depending on the number of ticket purchases and attach the same payment slip)
             </li>
             <li>Wait for an email confirmation for your ticket.</li>
+            <br />
+            <strong>NOTICE:</strong>
+            <br />For Official Receipt requests, there will be an additional fee on top of the actual ticket cost. The OR will be issued weeks after the event. You may request OR here:
+            <a
+              style="color: white"
+              href="https://bit.ly/2k3SJmS"
+              target="_blank"
+              rel="noreferrer"
+            >https://bit.ly/2k3SJmS</a>
           </ol>
           <center>
             <button

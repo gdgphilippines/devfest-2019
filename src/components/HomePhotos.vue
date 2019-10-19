@@ -59,13 +59,13 @@ export default {
           year: "2018",
           link: "https://photos.app.goo.gl/Vwi7Lvt7CQhJw3gQ7",
           photos: [
-            "/assets/2018/1.jpg",
-            "/assets/2018/2.jpg",
-            "/assets/2018/3.jpg",
-            "/assets/2018/4.jpg",
-            "/assets/2018/5.jpg",
-            "/assets/2018/6.jpg",
-            "/assets/2018/7.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Past%20Galleries%2F2018%2F1.jpg?alt=media&token=d8239b72-8d4e-43a1-8ed1-18b58854b702",
+            "https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Past%20Galleries%2F2018%2F2.jpg?alt=media&token=5a8509cb-f83e-405f-8b42-bea6d49b6ef9",
+            "https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Past%20Galleries%2F2018%2F3.jpg?alt=media&token=263d2ced-68ea-4719-a147-2d66a795840f",
+            "https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Past%20Galleries%2F2018%2F4.jpg?alt=media&token=0c338c02-9990-494f-95c7-8fce28e15e1c",
+            "https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Past%20Galleries%2F2018%2F5.jpg?alt=media&token=606d2a97-e1e0-43d0-8a4f-da9c2e934272",
+            "https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Past%20Galleries%2F2018%2F6.jpg?alt=media&token=fe24015c-463b-4ced-9bbd-f9eebc11a62b",
+            "https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Past%20Galleries%2F2018%2F7.jpg?alt=media&token=33366f91-06cb-4bde-b625-b51665e43ed4"
           ]
         },
         {
