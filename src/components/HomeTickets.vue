@@ -22,8 +22,8 @@
       </div>
       <div class="HomeTickets__ticket">
         <h1 class="HomeTickets__ticketName">Early Bird</h1>
-        <h2 class="HomeTickets__ticketPrice">Php 2,500</h2>
-        <p class="HomeTickets__ticketDetails">Sold out!</p>
+        <h2 class="HomeTickets__ticketPrice"></h2>
+        <p class="HomeTickets__ticketDetails" style="transform: scale(1.75); margin: 2rem">Sold out!</p>
         <a class="HomeTickets__button">
           <svg style="width:24px;height:24px" viewBox="0 0 24 24">
             <path
@@ -36,8 +36,8 @@
       </div>
       <div class="HomeTickets__ticket">
         <h1 class="HomeTickets__ticketName">Blind Bird</h1>
-        <h2 class="HomeTickets__ticketPrice">Php 2,000</h2>
-        <p class="HomeTickets__ticketDetails">Sold out!</p>
+        <h2 class="HomeTickets__ticketPrice"></h2>
+        <p class="HomeTickets__ticketDetails" style="transform: scale(1.75); margin: 2rem">Sold out!</p>
         <a class="HomeTickets__button">
           <svg style="width:24px;height:24px" viewBox="0 0 24 24">
             <path
@@ -188,14 +188,13 @@
             </li>
             <li>Wait for an email for your ticket.</li>
             <br />
-            <strong>NOTICE:</strong>
-            <br />For Official Receipt requests, there will be an additional fee on top of the actual ticket cost. The OR will be issued weeks after the event. You may request OR here:
-            <a
-              style="color: white"
-              href="https://bit.ly/2k3SJmS"
-              target="_blank"
-              rel="noreferrer"
-            >https://bit.ly/2k3SJmS</a>
+            <div style="border-left: 2px solid white; padding-left: 1rem;">
+              For Official Receipt requests, please email at
+              <a
+                style="color: white"
+                href="mailto:gdgphmarketing@gmail.com"
+              >gdgphmarketing@gmail.com</a>. Note that there will be an additional fee on top of the actual ticket cost. The OR will be issued weeks after the event.
+            </div>
           </ol>
           <center>
             <button @click="QRModalShown = false" class="HomeTickets__modalbutton">Close</button>
@@ -246,14 +245,13 @@
             </li>
             <li>Wait for an email confirmation for your ticket.</li>
             <br />
-            <strong>NOTICE:</strong>
-            <br />For Official Receipt requests, there will be an additional fee on top of the actual ticket cost. The OR will be issued weeks after the event. You may request OR here:
-            <a
-              style="color: white"
-              href="https://bit.ly/2k3SJmS"
-              target="_blank"
-              rel="noreferrer"
-            >https://bit.ly/2k3SJmS</a>
+            <div style="border-left: 2px solid white; padding-left: 1rem;">
+              For Official Receipt requests, please email at
+              <a
+                style="color: white"
+                href="mailto:gdgphmarketing@gmail.com"
+              >gdgphmarketing@gmail.com</a>. Note that there will be an additional fee on top of the actual ticket cost. The OR will be issued weeks after the event.
+            </div>
           </ol>
           <center>
             <button
@@ -273,7 +271,7 @@
 .HomeTickets
   padding: 2rem
   
-  background: url(/assets/abstract-background.png)
+  background: url(https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Other%20Images%2Fabstract-background.png?alt=media&token=5f3b72b8-fea2-4b61-8b50-72a11ab44853)
   background-size: cover
   overflow: hidden
   position: relative

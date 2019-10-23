@@ -126,7 +126,7 @@ Furthermore, he is the creator of Remote for Slides, a Chrome Extension + Progre
     name: 'Alex Solis',
     position: 'Software Engineer',
     company: 'Cast & Crew',
-    country: 'USA',
+    country: 'United States',
     bio: `Alex is currently working as a Software Engineer for Cast & Crew on projects using Typescript, Angular, and Electron, while contributing to their product design. 
 
     In the past, he has worked as a business analyst as well as a product lead, and has also employed UX Design and Agile Methodologies. His exposure to different roles has helped him methodically identify the needs of end users and improve the capabilities of development teams.
@@ -136,8 +136,21 @@ Furthermore, he is the creator of Remote for Slides, a Chrome Extension + Progre
     He is a big geek for superheroes, anime, dancing, and cooking and uses these other forms of disciplines to innovate the efficient delivery of digital products.`,
     session: 'Building Digital Products for Transforming Industries',
     imageURL:
-      'https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Speaker%20Photos%2Fvin-lim.jpg?alt=media&token=95d7e26c-e916-4f0a-9c4a-0f8ddb804e46'
+      'https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Speaker%20Photos%2Falex-solis.jpg?alt=media&token=2997c852-1a42-40a2-804c-1b0ac23aee20'
   },
+  {
+    id: 'audrey-pe',
+    name: 'Audrey Pe',
+    position: 'Founder and Executive Director',
+    company: 'WiTech (Women in Technology)',
+    country: 'Philippines',
+    bio: ``,
+    session:
+      'Closing the Gender and Tech Accessibility Gaps that Exist in the Philippines',
+    imageURL:
+      'https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Speaker%20Photos%2FAudrey%20Pe.jpg?alt=media&token=abc81c71-a7ec-45fc-b9e4-6ef5036fb37d'
+  },
+
   {
     id: 'joshua-deguzman',
     name: ' Joshua De Guzman',
