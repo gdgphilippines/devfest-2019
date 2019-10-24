@@ -1,7 +1,7 @@
 <template>
   <div class="HomeLanding">
     <!-- Background cover for mobile -->
-    <clazy-load src="/assets/cover.png">
+    <clazy-load src="https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Other%20Images%2Fcover.jpg?alt=media&token=e8f5b261-344d-4780-9a0a-9291f8e2e939">
       <transition name="scalein" appear>
         <div class="HomeLanding__background HomeLanding__background--mobile"></div>
       </transition>
@@ -9,7 +9,7 @@
     </clazy-load>
 
     <!-- Background cover for desktop -->
-    <clazy-load src="/assets/cover.png">
+    <clazy-load src="https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Other%20Images%2Fcover.jpg?alt=media&token=e8f5b261-344d-4780-9a0a-9291f8e2e939">
       <transition name="scalein" appear>
         <div class="HomeLanding__background HomeLanding__background--desktop" v-parallax="0.4"></div>
       </transition>
@@ -147,7 +147,7 @@ export default {
     left: 0
     right: 0
     bottom: 0
-    background: url('/assets/cover.png')
+    background: url('https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Other%20Images%2Fcover.jpg?alt=media&token=e8f5b261-344d-4780-9a0a-9291f8e2e939')
     background-position: center
     background-size: cover
     width: 100%

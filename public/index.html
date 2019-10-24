@@ -12,6 +12,34 @@
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-M9B5JK5');</script>
   <!-- End Google Tag Manager -->
+  <!-- Facebook Chat -->
+  <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v4.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="186397268158879"
+  theme_color="#0000aa"
+  logged_in_greeting="Hi! How can we help you?"
+  logged_out_greeting="Hi! How can we help you?">
+      </div>
+  <!-- End of Facebook Chat -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -22,7 +50,8 @@
   <meta property="og:title" content="GDG DevFest Philippines 2019" />
   <meta property="og:description"
     content="GDG DevFest Philippines 2019 brings together experts in Android, Web and Cloud technologies to Manila for sessions, workshops and showcases." />
-  <meta property="og:image" content="https://devfest.gdgph.org/assets/fb-event-cover.jpg" />
+  <meta property="og:image"
+    content="https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Other%20Images%2Ffb-event-cover.jpg?alt=media&token=f186eb10-44e3-477d-9cad-9fe0a28b1007" />
 </head>
 
 <body>

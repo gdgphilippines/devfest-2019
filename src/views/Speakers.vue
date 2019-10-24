@@ -13,11 +13,11 @@
           :key="speaker.name"
           @click="selectedSpeaker = speaker; speakerModalShown=true"
         >
-          <clazy-load :src="'/assets/speakers/' + speaker.id + '.jpg'">
+          <clazy-load :src="speaker.imageURL">
             <transition name="fade" appear>
               <div
                 class="Speakers__speaker-photo"
-                :style="'background-image: url(/assets/speakers/' + speaker.id + '.jpg'"
+                :style="'background-image: url(' + speaker.imageURL + ')'"
               />
             </transition>
           </clazy-load>
@@ -67,7 +67,7 @@
           <transition name="slideup" appear>
             <div
               class="Speakers__modal-photo"
-              :style="'background-image: url(/assets/speakers/' + selectedSpeaker.id + '.jpg'"
+              :style="'background-image: url(' + selectedSpeaker.imageURL + ')'"
             ></div>
           </transition>
           <div class="container">
@@ -83,9 +83,6 @@
         </div>
       </div>
     </transition>
-    <center>
-      <h1 class="Speakers__toberevealed">More speakers to be revealed soon!</h1>
-    </center>
     <br />
     <br />
     <br />
@@ -176,7 +173,7 @@
   
   &__modal
     background-color: $color-background
-    background: url(/assets/abstract-background.png)
+    background: url(https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Other%20Images%2Fabstract-background.png?alt=media&token=5f3b72b8-fea2-4b61-8b50-72a11ab44853)
     background-size: cover
     width: calc(100% - 2rem)
     height: calc(100% - 10rem)

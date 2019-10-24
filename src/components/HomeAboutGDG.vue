@@ -1,7 +1,10 @@
 <template>
   <div class="HomeAboutGDG">
     <div class="HomeAboutGDG__container container">
-      <clazy-load src="/assets/team.jpg" :threshold="0">
+      <clazy-load
+        src="https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Other%20Images%2Fteam.jpg?alt=media&token=c59605ec-4f6d-40c0-9cc8-4bfd55324753"
+        :threshold="0"
+      >
         <transition name="fade" appear>
           <div class="HomeAboutGDG__image"></div>
         </transition>
@@ -46,7 +49,7 @@
       padding: 4rem 3rem
 
   &__image
-    background: url(/assets/team.jpg)
+    background: url(https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Other%20Images%2Fteam.jpg?alt=media&token=c59605ec-4f6d-40c0-9cc8-4bfd55324753)
     background-size: cover
     background-position: center
     background-repeat: no-repeat
