@@ -27,7 +27,7 @@
               v-for="route in indexNavigationRoutes"
             >{{route.name}}</router-link>
           </li>
-          <li>
+          <!-- <li>
             <button
               @click="scrollToTickets()"
               class="AppNavigation__navlink AppNavigation__navlink--cta"
@@ -40,7 +40,7 @@
               </svg>
               <span>Buy Ticket</span>
             </button>
-          </li>
+          </li> -->
           <!-- <li>
             <button
               @click="scrollToTickets()"
