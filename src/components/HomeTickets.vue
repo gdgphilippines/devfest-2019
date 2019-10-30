@@ -4,13 +4,11 @@
       <h1 class="section-title">Tickets</h1>
     </center>
     <div class="HomeTickets__tickets">
-      <div class="HomeTickets__ticket HomeTickets__ticket--active">
+      <div class="HomeTickets__ticket">
         <h1 class="HomeTickets__ticketName">Regular</h1>
-        <h2 class="HomeTickets__ticketPrice">Php 3,000</h2>
-        <p class="HomeTickets__ticketDetails">
-          <b>Limited tickets available!</b>
-        </p>
-        <a class="HomeTickets__button" @click.prevent="scrollToPaymentMethods()">
+        <h2 class="HomeTickets__ticketPrice"></h2>
+        <p class="HomeTickets__ticketDetails" style="transform: scale(1.75); margin: 2rem">Sold out!</p>
+        <a class="HomeTickets__button">
           <svg style="width:24px;height:24px" viewBox="0 0 24 24">
             <path
               fill="#ffffff"
@@ -49,11 +47,18 @@
         </a>
       </div>
     </div>
-    <br />
-    <br />
-    <a name="paymentmethods" style="padding-top: 4rem; display: inline-block"></a>
+
+    <!-- <a name="paymentmethods" style="padding-top: 4rem; display: inline-block;"></a> -->
     <center>
-      <h1 class="section-title">Payment Methods</h1>
+      <br>
+      <div style="margin: 2rem; line-height: 1.5rem; max-width: 50rem; border: 1px solid white; padding: 2rem">
+              For Official Receipt requests, please email at
+              <a
+                style="color: white;"
+                href="mailto:gdgphmarketing@gmail.com"
+              >gdgphmarketing@gmail.com</a>. Note that there will be an additional fee on top of the actual ticket cost. The Official Receipt will be issued weeks after the event.
+            </div>
+      <!-- <h1 class="section-title">Payment Methods</h1>
       <div class="HomeTickets__paymentmodes">
         <div class="HomeTickets__paymentmode">
           <svg style="width:42px;height:42px" viewBox="0 0 24 24">
@@ -124,9 +129,9 @@
             <span>Payment Instructions</span>
           </div>
         </div>
-      </div>
+      </div> -->
     </center>
-    <transition name="scalein">
+    <!-- <transition name="scalein">
       <div class="HomeTickets__modalwrapper" v-if="QRModalShown">
         <div class="HomeTickets__modalbackground" @click="QRModalShown = false"></div>
         <div class="HomeTickets__modal">
@@ -261,7 +266,7 @@
           </center>
         </div>
       </div>
-    </transition>
+    </transition> -->
   </div>
 </template>
 
