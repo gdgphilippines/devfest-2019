@@ -83,7 +83,8 @@
             </div>
           </transition>
           <br />
-            <a href="https://drive.google.com/file/d/1tkYmUIaJ3PcVSm-tvm3aHAWZ2BHzReYo/view"   
+          <br>
+            <!-- <a href="https://drive.google.com/file/d/1tkYmUIaJ3PcVSm-tvm3aHAWZ2BHzReYo/view"   
             target="none"
             class="HomeLanding__cta">
             <svg style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -93,7 +94,7 @@
               />
             </svg>
             <span class="HomeLanding__cta-text">Download Primer</span>
-            </a>
+            </a> -->
           
           <div @click="scrollToNext()" class="HomeLanding__mouse"></div>
           <div class="preloader" slot="placeholder"></div>
