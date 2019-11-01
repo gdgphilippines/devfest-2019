@@ -144,7 +144,7 @@ Furthermore, he is the creator of Remote for Slides, a Chrome Extension + Progre
     position: 'Founder and Executive Director',
     company: 'WiTech (Women in Technology)',
     country: 'Philippines',
-    bio: ``,
+    bio: 'Audrey is a 2019 Global Teen Leader who has an enormous love for STEM which fueled her up to start WiTech (Women in Technology)--a community organization that educates, inspires and empowers youth to break gender barriers and use technology to make positive differences in our society.',
     session:
       'Closing the Gender and Tech Accessibility Gaps that Exist in the Philippines',
     imageURL:
@@ -169,9 +169,51 @@ Furthermore, he is the creator of Remote for Slides, a Chrome Extension + Progre
     position: 'Senior AI Trainer and Designer',
     company: 'Starbutter AI',
     country: 'Philippines',
-    bio: '',
+    bio: 'Jean Alfonso-Decena--a pioneer in Conversational AI Design and Training disrupting FinTech, Digital Marketing & Acquisition and Voice SEO. She helps bake bots for the Google-award winning Starbutter AI based in Skydeck, Berkeley in California. She’s a speaker, mentor and consultant on AI, Startups, Agile Methodology, Process Improvement, Talent Development and CS.',
     session: 'AI Workforce - Jobs of the Future in the Present',
     imageURL:
       'https://firebasestorage.googleapis.com/v0/b/devfestph.appspot.com/o/Speaker%20Photos%2Fjean-alfonso-decena.jpg?alt=media&token=59e231c3-803a-43b2-b39b-68700fc3c201'
-  }
-];
+  },
+{
+  id: 'marikit-valmadrid',
+  name: 'Marikit Valmadrid',
+  position: 'Productivity tools for the Not-So-Dummy',
+  company: 'Philippine Web Designers Organization',
+  country: 'Philippines',
+  bio: '',
+  session: 'Productivity tools for the Not-So-Dummy',
+  imageURL: ''
+   
+},
+{
+  id: 'anthony-amanse',
+  name: 'Anthony Amanse',
+  position: 'Software Engineer',
+  company: 'IBM',
+  country: 'Philippines',
+  bio: 'All the way from IBM USA, Software Developer Anthony will will be sharing us his expertise when it comes to Cloud and Container Technology. Most of the time, he is working on applications deployed in Kubernetes. He is interested in applications in a Microservices Architecture. His favorite language is Javascript and likes to dabble in mobile development. In his free time, he enjoys playing basketball and rock climbing.',
+  session: 'Cloud Native Development Patterns with Containers and Serverless',
+  imageURL: ''
+},
+{
+  id: 'anelle-denise-silerio',
+  name: 'Anelle Denise Silerio',
+  position: 'Senior AI Trainer and Designer',
+  company: 'Illustrados Creatives and Technology  ',
+  country: 'Philippines',
+  bio: '',
+  session: 'The Impact of Good UX in our Lifestyle',
+  imageURL: ''
+ 
+},
+{
+  id: 'juan-carlos',
+  name: 'Juan Carlos Roldán',
+  position: 'Researcher',
+  company: 'University of Seville ',
+  country: 'Spain',
+  bio: 'He is a researcher at the University of Seville. Previously, he worked at the research facilities of the USC Information Sciences Institute in Marina del Rey, California. His research interests are: information extraction, social media analysis, and data science in general.',
+  session: 'Turning web data into knowledge',
+  imageURL: ''
+}];
+
