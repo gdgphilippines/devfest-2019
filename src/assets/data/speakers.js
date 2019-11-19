@@ -215,5 +215,164 @@ Furthermore, he is the creator of Remote for Slides, a Chrome Extension + Progre
   bio: 'He is a researcher at the University of Seville. Previously, he worked at the research facilities of the USC Information Sciences Institute in Marina del Rey, California. His research interests are: information extraction, social media analysis, and data science in general.',
   session: 'Turning web data into knowledge',
   imageURL: ''
+},
+{
+  id: 'lesley-zerna',
+  name: 'Lesly Zerna',
+  position: 'Cofounder & Educator',
+  company: 'Mentor Her',
+  country: 'Bolivia',
+  bio: 'Lesly is from Bolivia. She loves traveling and meeting new people and learning from new cultures. She loves learning and teaching about technology. Lesly studied Telecom Engineering in Bolivia and completed a master in Computer Science in Belgium. Currently, she is a profesor at local university in Bolivia, but also a tech educator creating and developing content to teach about Machine Learning. She has been a TEDx speaker in 2018 in Bolivia, talking about education and start ups. She is also an activist for inclusion of more women in tech, cybersecurity and entrepreneurship culture. Cofounder of MentorHER the support for more girls into techs. Google Developer Expert in Machine Learning',
+  session: ' AI ecosystems in Latin America to the Philippines',
+  imageURL: ''
+},
+{
+  id: 'gina-romero',
+  name: 'Gina Romero',
+  position: 'CEO & Co-Founder',
+  company: 'Connected Women',
+  country: 'UK / Philippines',
+  bio: 'Tech-smart, business-savvy, down to earth, inspired connector of people & ideas.',
+  session: 'Inclusive Innovation',
+  imageURL: ''
+},
+{
+  id: 'jielynn-diroy',
+  name: 'Jielynn Diroy',
+  position: 'Women Techmaker Ambassador / #IamRemarkable Ambassador',
+  company: 'Google Developer Group Philippines',
+  country: 'Philippines',
+  bio: 'Jielynn is a Java developer in Malaysia and a project manager in Philippines. She wants to spend her free time managing different teams with a goal that each one would be satisfied and successful -- through Sims 4. Jielynn has been fond of Google Technologies and products since she was in college. This became the fuel of her passion into gaining and sharing knowledge to and from the community. She is the Women Techmaker Ambassador, #IamRemarkable Ambassador and one of the community heads of GDG Philippines. She is also starting a diversity-focused community --  Women Techmakers Manila.',
+  session: '#IamRemarkable',
+  imageURL: ''
+},
+{
+  id: '',
+  name: 'Sheryl D. Kamantigue',
+  position: 'Academic Teaching Faculty',
+  company: 'De La Salle University - Dasmariñas',
+  country: 'Philippines',
+  bio: 'Sheryl has been in the Academe for almost 20 years and is teaching BSCS and BSIT students.',
+  session: '',
+  imageURL: ''
+},
+{
+  id: '',
+  name: 'Isabel Sieh',
+  position: 'Founder and Executive Director',
+  company: 'Girls Will Code',
+  country: 'Philippines',
+  bio: 'Isabel is the founder and Executive Director of Girls Will Code, a community organization encouraging and helping girls to take part in coding and STEM, and the Co-Founder of The Coding School.  She is 16 years old and enjoys learning about all things tech, playing tennis, and spending time with family and friends. She is a Youth Champion for SDG 5: Gender Equality and a Youth Innovators Program Awardee. ',
+  session: '',
+  imageURL: ''
+},
+{
+  id: '',
+  name: '',
+  position: '',
+  company: '',
+  country: '',
+  bio: '',
+  session: '',
+  imageURL: ''
+},
+{
+  id: '',
+  name: '',
+  position: '',
+  company: '',
+  country: '',
+  bio: '',
+  session: '',
+  imageURL: ''
+},
+{
+  id: '',
+  name: '',
+  position: '',
+  company: '',
+  country: '',
+  bio: '',
+  session: '',
+  imageURL: ''
+},
+{
+  id: '',
+  name: '',
+  position: '',
+  company: '',
+  country: '',
+  bio: '',
+  session: '',
+  imageURL: ''
+},
+{
+  id: '',
+  name: '',
+  position: '',
+  company: '',
+  country: '',
+  bio: '',
+  session: '',
+  imageURL: ''
+},
+{
+  id: '',
+  name: '',
+  position: '',
+  company: '',
+  country: '',
+  bio: '',
+  session: '',
+  imageURL: ''
+},
+{
+  id: '',
+  name: '',
+  position: '',
+  company: '',
+  country: '',
+  bio: '',
+  session: '',
+  imageURL: ''
+},
+{
+  id: '',
+  name: '',
+  position: '',
+  company: '',
+  country: '',
+  bio: '',
+  session: '',
+  imageURL: ''
+},
+{
+  id: '',
+  name: '',
+  position: '',
+  company: '',
+  country: '',
+  bio: '',
+  session: '',
+  imageURL: ''
+},
+{
+  id: '',
+  name: '',
+  position: '',
+  company: '',
+  country: '',
+  bio: '',
+  session: '',
+  imageURL: ''
+},{
+  id: '',
+  name: '',
+  position: '',
+  company: '',
+  country: '',
+  bio: '',
+  session: '',
+  imageURL: ''
 }];
 
